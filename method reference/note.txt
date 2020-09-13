@@ -22,5 +22,4 @@ System.out::println
 
 NOTE:
 
-if functional interface do not have matching method parameters , then it won't be called.
-i.e. we can't use in that situation.
+if functional interface do not have matching method parameters, then method reference won't work.
