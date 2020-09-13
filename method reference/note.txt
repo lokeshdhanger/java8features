@@ -1,0 +1,26 @@
+Definitions:
+
+> They are used to refer method of functional interface
+> They are compact and easy to use or shorthand form of lambda expression.
+
+example:
+
+(x)->System.out.println(x)
+
+its method reference is:
+
+System.out::println
+
+
+# 4 types of method references
+
+1. method reference to constructor
+2. method reference to instance method
+3. method reference to static method
+4. method reference to instance method of an arbitrary object of a particular types
+
+
+NOTE:
+
+if functional interface do not have matching method parameters , then it won't be called.
+i.e. we can't use in that situation.
